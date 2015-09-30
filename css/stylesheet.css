@@ -1,4 +1,59 @@
-﻿/*_________________________________________________________
+﻿body{
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	color: rgb(183,146,108);
+}
+h2{
+	color: rgb(109,74,37);
+	font-size: 18px;
+	font-weight: 600;
+}
+a {
+	color: rgb(128, 103, 78);
+	
+}
+/*_________________________________________________________
 
-                HEADER
+				HEADER
+___________________________________________________________*/
+header {
+	background: rgb(254,252,249); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(254,252,249,1) 0%, rgba(255,230,189,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(254,252,249,1)), color-stop(99%,rgba(255,230,189,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(254,252,249,1) 0%,rgba(255,230,189,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(254,252,249,1) 0%,rgba(255,230,189,1) 99%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(254,252,249,1) 0%,rgba(255,230,189,1) 99%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(254,252,249,1) 0%,rgba(255,230,189,1) 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcf9', endColorstr='#ffe6bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-box-shadow: inset 0 -10px 20px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0 -10px 20px -15px rgba(0,0,0,0.75);
+	box-shadow: inset 0 -10px 20px -15px rgba(0,0,0,0.75);
+}
+	
+nav{
+	margin-top: 3em;
+	background: rgb(251,251,251); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(251,251,251,1) 0%, rgba(219,219,219,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(251,251,251,1)), color-stop(99%,rgba(219,219,219,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(251,251,251,1) 0%,rgba(219,219,219,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(251,251,251,1) 0%,rgba(219,219,219,1) 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(251,251,251,1) 0%,rgba(219,219,219,1) 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(251,251,251,1) 0%,rgba(219,219,219,1) 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+	border: 1px solid rgb(172, 172, 172);
+	border-color: rgb(232, 229, 223) rgb(226, 225, 225) rgb(207, 207, 207);
+	border-radius: 3em;
+	font-family: 'Lobster', cursive;
+	font-weight: 600;
+	font-size: 1.3em;
+    letter-spacing: 1px;
+}
+nav .nav a{
+	color: rgb(165,126,86);
+}
+nav .nav a[href="contacts.html"]  {
+    color:  rgb(194, 159, 123);
+}
+/*_________________________________________________________
+
+				carousel
 ___________________________________________________________*/
